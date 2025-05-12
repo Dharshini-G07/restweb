@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fffdf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #c60f95;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://www.dosafactorymenu.com/blog-admin/images/indian-food-items-apt-for-everyone041641.jpeg') no-repeat center center/cover;
+  padding: 140px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.form-section {
+  padding: 50px;
+  text-align: center;
+}
+
+form input, form button {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.menu-item1{
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+}
+.contact{
+    margin-top: 150px;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+.contact-footer{
+    margin-top: 300px;
+}
+.menu-footer{
+    margin-top: 210px;
+}
+.login-footer{
+    margin-top: 250px;
+}
